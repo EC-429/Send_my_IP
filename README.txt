@@ -31,7 +31,7 @@
 
 # 5) Command line$ python3 Send_my_IP.py
 
-# 6) Additionally, a text file will be created and appended to every time the script is run and stored in the current
+# 6) Additionally, a text file called 'IPfile.txt' will be created and appended to every time the script is run and stored in the current
 # working directory to keep a historical record of your IP Address + Date Time combination.
 
 # Please feel free to give advice, ideas, and opinions on how it can be improved!
