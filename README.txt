@@ -20,7 +20,7 @@
 # subprocess   --> installation: pip3 install subprocess
 # smtplib      --> installation: pip3 install smtplib
 
-# Download and run SubNet from command line:
+# Download and run Send_my_IP from command line:
 # 1) git clone https://github.com/rpanov/Send_my_IP.git
 # 2) Modify the 'gmail_params.txt' file with your gmail account credentials for authenitcation over SMTP
 # 3) Modify the 'gmail_params.txt' file with the sending and recieving email addressed
@@ -28,13 +28,13 @@
 #      link: https://myaccount.google.com/lesssecureapps
 #      It’s turned off by default so you have to turn it on.
 #      Thats it! Your good to go and can start phoning home your web servers location through gmail SMTP and python3
+
 # 5) Command line$ python3 Send_my_IP.py
 
+# 6) Additionally, a text file will be created and appended to every time the script is run and stored in the current
+# working directory to keep a historical record of your IP Address + Date Time combination.
 
-
-
-
-# Please feel free so give advice, ideas, and opinions on how it can be improved!
+# Please feel free to give advice, ideas, and opinions on how it can be improved!
 
 # Thanks.
  
