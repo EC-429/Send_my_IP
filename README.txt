@@ -15,6 +15,8 @@
  # The purpose of this tool is to send an email over SMTP which contains the users IP Address with a time stamp. 
  # The tool can be bundle in to a cron job in order to systematically send notifications of your web servers' 
  # internet location at a specific point in time.
+
+# Additionallu, new functionality has been added to allow for sending email attachments as well. See Send_my_Email.py script.
  
 # This project is coded in python3 and requires the following packages:
 # subprocess   --> installation: pip3 install subprocess
@@ -30,8 +32,9 @@
 #      Thats it! Your good to go and can start phoning home your web servers location through gmail SMTP and python3
 
 # 5) Command line$ python3 Send_my_IP.py
+# 6) Command line$ python3 Send_my_email.py --file "attachment.txt"
 
-# 6) Additionally, a text file called 'IPfile.txt' will be created and appended to every time the script is run and stored in the current
+# 7) Additionally, a text file called 'IPfile.txt' will be created and appended to every time the script is run and stored in the current
 # working directory to keep a historical record of your IP Address + Date Time combination.
 
 # Please feel free to give advice, ideas, and opinions on how it can be improved!
