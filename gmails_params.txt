@@ -1,0 +1,16 @@
+
+# Send_my_IP, gmail account file. This is a supplemental file to the Send_my_IP.py file and will store your gmail
+# account credentials as well as the sender and recipient email address.
+#
+# gmail username:
+[type username]
+#
+# gmail password:
+[type password]
+#
+# gmail sender:
+[gmail account you are logging in to and sending emails from Ex: johndoe@gmail.com]
+#
+# Recipient:
+[email address of the recipeint Ex: bobross@hotmail.com]
+
